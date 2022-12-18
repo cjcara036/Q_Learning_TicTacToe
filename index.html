@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>TicTacToe Reinforcement Learning Test</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="TTT">
+            <div id="TTT_Panel">
+                <p>Mode:</p>
+                <div id="mode_PvP" class="modeButton1">PvP</div>
+                <div id="mode_PvC" class="modeButton1">PvC</div>
+                <div id="mode_CvC" class="modeButton1">CvC</div>
+                <div id="TurnName"></div>
+            </div>
+            <div id="TTT_Board">
+                <div class="TTT_Row">
+                    <div class="TTT_Cell_Default" id="C11"></div>
+                    <div class="TTT_Cell_Default" id="C12"></div>
+                    <div class="TTT_Cell_Default" id="C13"></div>
+                </div>
+                <div class="TTT_Row">
+                    <div class="TTT_Cell_Default" id="C21"></div>
+                    <div class="TTT_Cell_Default" id="C22"></div>
+                    <div class="TTT_Cell_Default" id="C23"></div>
+                </div>
+                <div class="TTT_Row">
+                    <div class="TTT_Cell_Default" id="C31"></div>
+                    <div class="TTT_Cell_Default" id="C32"></div>
+                    <div class="TTT_Cell_Default" id="C33"></div>
+                </div>
+            </div>
+            <div id="TTT_msgPanel">System Message:</div>
+        </div>
+        <div id="Dev_Panel">
+            <div id="QLearnSave">Save QLearn_StateStore</div>
+            <input type="file" id="file-selector">
+        </div>
+        <script src="QLearning/script_QLearn.js"></script>
+        <script src="TTT_processor/TTT_main.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>

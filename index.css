@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: #16213e;
+    font-family: 'Roboto', sans-serif;
+    color: mintcream;
+}
+
+#TTT{
+    float:left;
+}
+
+#Dev_Panel{
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: 0%;
+    float:left;
+}
+
+#QLearnSave{
+    padding-top: 15px;
+    margin: 0%;
+    height: calc(50px - 15px);
+    width: 100%;
+    background-color: whitesmoke;
+    box-shadow: 0px 3px #1a1a2e;
+    color:#252525;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#file-selector{
+    padding-top: 10px;
+    margin: 0%;
+}
+
+#TTT_Panel{
+
+    padding: 0%;
+    margin-bottom: 10px;
+    height: calc(60px + 10px);
+    width: 360px;
+    background-color: #0f3460;
+    box-shadow: 0px 3px #1a1a2e;
+}
+
+#TTT_Board{
+    padding: 0%;
+    margin: 0%;
+    height: 360px;
+    width: 360px;
+    border-radius: 10px;
+    background-color: #0f3460;
+    box-shadow: 0px 3px #1a1a2e;
+}
+
+#TTT_msgPanel{
+    padding: 0%;
+    margin-top: 10px;
+    padding-left: 5px;
+    height: calc(60px + 10px);
+    width: calc(360px - 5px);
+    background-color: #0f3460;
+    box-shadow: 0px 3px #1a1a2e;
+}
+
+.TTT_Row{
+    padding: 0%;
+    margin: 0%;
+    float:left;
+    height: 33%;
+    width: 100%;
+}
+
+.TTT_Cell_Default{
+    padding: 0%;
+    margin: 5px;
+    float:left;
+    height: calc(100% - 10px);
+    width: calc(33.333333% - 10px);
+    background-color: #e94560;
+    border-radius: 10px;
+    box-shadow: 0px 3px #1a1a2e;
+}
+
+.TTT_Cell_X{
+    padding: 0%;
+    margin: 5%;
+    width: 90%;
+    height: 90%;
+    background-image:url("img/X_vec.svg");
+}
+
+.TTT_Cell_O{
+    padding: 0%;
+    margin: 5%;
+    width: 90%;
+    height: 90%;
+    background-image:url("img/O_vec.svg");
+}
+
+p{
+    float: left;
+    padding-left: 5px;
+    padding-top: 20px;
+    margin: 0%;
+    font-size: xx-large;
+}
+
+.modeButton1{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 15px;
+    height: calc(100% - 35px);
+    width: 15%;
+    background-color: #184c8c;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 3px #1a1a2e;
+}
+
+.modeButton2{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 15px;
+    height: calc(100% - 35px);
+    width: 15%;
+    background-color: #e94560;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 3px #1a1a2e;
+}
+
+#TurnName{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 15px;
+    height: calc(100% - 35px);
+    width: 15%;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 3px #1a1a2e;
+}
+
+.TN_X{
+    background-image: url("img/X_vec.svg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    float:left;
+}
+.TN_O{
+    background-image: url("img/O_vec.svg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    float:left;
+}

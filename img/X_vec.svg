@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://greentree.cf">
+  <path d="M 227.251 26.642 H 343.677 V 262.198 H 576.527 V 379.976 H 343.677 V 615.532 H 227.251 V 379.976 H -5.599 V 262.198 H 227.251 Z" style="fill: rgb(37, 37, 37);" transform="matrix(0.701447, -0.712721, 0.712721, 0.701447, -178.613266, 228.062851)" bx:shape="cross -5.599 26.642 582.126 588.89 117.778 116.426 0.5 1@736fa03d"/>
+</svg>
