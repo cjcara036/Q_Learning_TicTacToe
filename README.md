@@ -31,3 +31,11 @@
 <li>The AI agent's learning progress is stored in the <code>QLearn_StateStore</code> variable in the <code>QLearning/script_QLearn.js</code> file. This variable can be modified and saved using the provided "Save State" and "Load State" buttons.</li>
 <li>The AI agent's training can be customized by modifying the constants in the <code>TTT_processr/TTT_main.js</code> file (e.g. number of runs per training session, feedback scores for different outcomes).</li>
 </ul>
+<h2>About the QLearn class</h2>
+<p>The QLearn class is a JavaScript implementation of the Q-Learning algorithm. It is used to train the AI agent in this Tic-Tac-Toe game project. The QLearn class has the following methods:</p>
+<ul>
+<li><code>chooseState(SName, StateAction, addtoShiftChain=true)</code>: This method chooses an action from the <code>StateAction</code> list, given a state represented by <code>SName</code>. If <code>addtoShiftChain</code> is set to true, the chosen action will also be added to the QLearn object's state chain. The chosen action is selected based on the probabilities stored in the <code>QLearn_StateStore</code> global variable, which is a matrix of state-action pairs and their corresponding probabilities.</li>
+<li><code>feedback(StateChain_Score)</code>: This method updates the probabilities in the <code>QLearn_StateStore</code> based on the feedback score provided in <code>StateChain_Score</code>. The feedback score is used to adjust the probabilities of the actions in the QLearn object's state chain in proportion to their relative distance from the end of the chain. The probabilities are also normalized after being updated.</li>
+<li><code>addtoStateChain(stateName, ActList, ActionSelected)</code>: This method adds an entry to the QLearn object's state chain, consisting of the state represented by <code>stateName</code> and the action represented by <code>ActionSelected</code>. If the state represented by <code>stateName</code> does not exist in the <code>QLearn_StateStore</code>, it is added to the <code>QLearn_StateStore</code> with equal probabilities for all actions in <code>ActList</code>.</li>
+<li><code>clearStateChain()</code>: This method clears the QLearn object's state chain.</li>
+</ul>
